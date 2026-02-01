@@ -63,4 +63,19 @@ const CONFIG = {
 
     animations: {
         floatDuration: "15s",
-        floatDistance:
+        floatDistance: "50px",
+        bounceSpeed: "0.5s",
+        heartExplosionSize: 1.5
+    },
+
+    music: {
+        enabled: true,
+        autoplay: true,
+        musicUrl: "https://res.cloudinary.com/dvc9vdr7j/video/upload/v1769955839/The_Cardigans_-_Lovefool_Lyrics_uydhjm.mp3",
+        startText: "🎵 Play Music",
+        stopText: "🔇 Stop Music",
+        volume: 0.5
+    }
+};
+
+window.VALENTINE_CONFIG = CONFIG;
